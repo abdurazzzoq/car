@@ -1,0 +1,64 @@
+
+.brands{
+
+
+.car-brands{
+display: flex;
+align-items: center;
+justify-content: space-between;
+    .arrow{
+        cursor: pointer;
+
+    }
+
+}
+.brands-btn{
+    margin: 0 auto;
+    margin-top: 20px;
+    display: none;
+    padding: 10px 20px;
+    background: transparent;
+    border: 1px solid #000;
+    border-radius: 20px;
+    cursor: pointer;
+    &:hover{
+       background: gray;
+    }
+    &:active{
+        background: transparent;
+    }
+}
+}
+
+@media only screen and(max-width:580px) {
+    .brands{
+
+       
+    
+    .img2{
+        display: none;
+       
+    }
+    .arrow{
+        display: none;
+    }
+    .brands-btn{
+        display: block;
+        margin: 0 auto;
+        margin-top: 20px;
+        padding: 10px 20px;
+        background: transparent;
+        border: 1px solid #000;
+        border-radius: 20px;
+        cursor: pointer;
+        &:hover{
+           background: gray;
+        }
+        &:active{
+            background: transparent;
+        }
+    }
+}
+
+    
+}

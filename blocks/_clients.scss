@@ -1,0 +1,148 @@
+
+.clients{
+    max-width: 100%;
+    margin-top: 169px;
+}
+
+.clients-div{
+    margin-top: 74px;
+    .clients-part{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .our-clients{
+            font-family: 'Prompt';
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 76px;
+
+color: #2E2E2E;
+        }
+        .clients-subtitle{
+            width: 400px;
+            font-family: 'Prompt';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 21px;
+/* or 175% */
+
+
+color: #B0B0B0;
+        }
+    }
+}
+
+
+.apps{
+    margin-top: 99px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+
+.heading{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+        .heading__navbar{
+    display: flex;
+    align-items: center;
+    gap: 35px;
+     list-style-type: none;
+            .heading__item{
+                font-family: 'Prompt';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 12px;
+                line-height: 14px;
+                
+                color: #333333;
+    
+               cursor: pointer;
+               
+               
+               &:hover{
+                color: gray;
+               }
+               &:active{
+                color: #000;
+               }
+            }
+        }
+        .tel-link{
+            padding: 12px 22px;
+    font-family: 'Prompt';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 12px;
+            line-height: 14px;
+            color: #fff;
+            border: #2E2E2E;
+            border-radius: 20px;
+            
+            background: #2E2E2E;
+            background-color: #000;
+    
+            &:hover{
+                background: gray;
+            }
+            
+        }
+    
+        
+        .humburger-menu{
+            display: none;
+        }
+    }
+
+ 
+    @media only screen and (max-width:450px){
+        .heading{
+        .heading__navbar{
+            display: none;
+        }
+        .humburger-menu{
+            display: block;
+        }
+   
+}
+.clients-div{
+
+
+.clients-part{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    .our-clients{
+      font-size: 48px;
+    }
+    .clients-subtitle{
+        font-size: 18px ;
+    }
+
+}
+
+}
+    }
+
+    @media only screen and(max-width:340px) {
+        .clients-div{
+            .clients-part{
+                .clients-subtitle{
+                    width:320px;
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+
+    
+
+
+
+   

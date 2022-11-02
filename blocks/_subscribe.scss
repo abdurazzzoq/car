@@ -1,0 +1,111 @@
+
+
+.subscribe{
+    max-width: 100%;
+    margin-top: 68px;
+    background-image: url(../img/Mask\ Groupbackground-img.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.subscribe-part{
+    padding-top: 160px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ flex-direction: column;
+.subscribe-heading{
+    font-family: 'Prompt';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 43px;
+    /* identical to box height */
+    
+    
+    color: #FFFFFF; 
+}
+.input{
+    margin-top: 53px;
+    padding: 20px 179px 21px 27px;
+    font-family: 'Prompt';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+
+background: transparent;
+border: 1px solid #9E9C9C;
+color: #9E9C9C;
+
+}
+.sub-btn{
+    margin-top: 22px;
+    margin-bottom: 243px;
+    padding: 18px 157px;
+    font-family: 'Prompt';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 21px;
+
+color: #333333;
+cursor: pointer;
+
+&:hover{
+    color: #FFFFFF;
+    background: gray;
+}
+
+&:active{
+    background-color: #FFFFFF;
+    color: #000;
+}
+}
+}
+
+@media only screen and(max-width:420px) {
+    .subscribe-part{
+       .input{
+        padding:20px 150px 21px 20px ;
+       }
+       .sub-btn{
+        padding:18px 137px ;
+       }
+    }
+}
+
+@media only screen and(max-width:385px) {
+    .subscribe-part{
+        .input{
+         padding:20px 110px 21px 20px;
+        }
+        .sub-btn{
+         padding:18px 115px;
+        }
+     }  
+}
+
+@media only screen and(max-width:355px) {
+    .subscribe-part{
+        .input{
+         padding:20px 100px 21px 20px ;
+        }
+        .sub-btn{
+         padding:18px 112px ;
+        }
+     }
+}
+
+@media only screen and (max-width:335px) {
+    .subscribe-part{
+        .input{
+         padding:20px 80px 21px 15px ;
+        }
+        .sub-btn{
+         padding:18px 100px ;
+        }
+     }
+}

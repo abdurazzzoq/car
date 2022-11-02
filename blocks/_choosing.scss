@@ -1,0 +1,102 @@
+
+
+.choosing{
+    max-width: 100%;
+    .choosing-heading{
+        width: 439px;
+        font-family: 'Prompt';
+        font-weight: 700;
+        font-style: normal;
+font-size: 64px;
+line-height: 76px;
+
+color: #B0B0B0;
+    }
+}
+
+.choosing-list{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    .choosing-items1{
+background-image: url(../img/Mask\ Groupbmw\ 328.png);
+background-repeat: no-repeat;
+background-size: cover;
+width: 260px;
+height: 260px;
+display: flex;
+align-items: flex-end;
+
+font-family: 'Prompt';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+
+color: #FFFFFF;
+cursor: pointer;
+    }
+    .choosing-items2{
+background-image: url(../img/Mask\ Groupvintage\ car.png);
+        background-repeat: no-repeat;
+background-size: cover;
+width: 260px;
+height: 260px;
+display: flex;
+align-items:flex-end;
+
+font-family: 'Prompt';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+
+color: #FFFFFF;
+cursor: pointer;
+    }
+    .choosing-items3{
+background-image: url(../img/Mask\ Groupgetting\ the\ key.png);
+        background-repeat: no-repeat;
+background-size: cover;
+width: 260px;
+height: 260px;
+display: flex;
+align-items: flex-end;
+
+font-family: 'Prompt';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+
+color: #FFFFFF;
+cursor: pointer;
+    }
+}
+
+@media only screen and(max-width: 450px) {
+
+    .choosing-list{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 260px;
+        margin: 0 auto;
+    }
+    .choosing{
+    
+    .choosing-heading{
+        font-size: 40px;
+        margin: 0 auto;
+        align-items: center;
+        width: 328px;
+    }
+}
+}
+@media only screen and(max-width:320px) {
+    .choosing{
+        .choosing-heading{
+        width: 315px;
+        }
+    }
+}

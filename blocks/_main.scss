@@ -1,0 +1,97 @@
+
+.main{
+max-width: 100%;
+.hero-section{
+display: flex;
+align-items: center;
+    max-width: 100%;
+
+    
+
+        
+}
+
+    
+}
+
+.div-hero{
+
+
+    .div-hero__header{
+        max-width: 322px;
+       
+        font-family: 'Prompt';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 64px;
+        line-height: 76px;
+        
+        color: #2E2E2E;
+    }
+    .div-hero__desc{
+        max-width: 316px; 
+        font-family: 'Prompt';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 32px;
+        /* or 178% */
+        
+        
+        color: #333333;
+    }
+}
+
+
+
+
+@media only screen and(max-width:820px) {
+.hero-section{
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
+}
+.div-hero{
+  
+    .div-hero__header{
+        width: 100%;
+        font-size: 50px;
+    }
+    .div-hero__desc{
+        width: 100%;
+        font-size: 16px;
+    }
+}
+}
+
+@media only screen and (max-width:455px){
+    .div-hero__header{
+        width: 100%;
+        text-align: center;
+    }
+    .div-hero__desc{
+        width: 100%;
+        text-align: center;
+    }
+    .car{
+        width: 400px;
+        height: 300px;
+    }
+}
+
+@media only screen  and(max-width:380px){
+    .div-hero{
+        .div-hero__header{
+            width: 100%;
+           font-size: 40px; 
+        }
+        .div-hero__desc{
+            width: 100%;
+            font-size: 15px;
+        }
+    }
+    .car{
+        width: 350px;
+        height: 250px;
+    } 
+}
